@@ -1,0 +1,279 @@
+/*nav section*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    color: white;
+    background-color: black;
+}
+.display{
+    display: flex;
+}
+.logo{
+    margin-left:100px;
+}
+.display .rest-name{
+    margin: 10px 50px 5px 20px;
+}
+.display li{
+    list-style-type:none;
+    display: inline;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+}
+.display .display-menu a{
+    text-decoration: none;
+}
+.display-menu{
+    margin-top: 30px;
+}
+.display-menu button{
+    background-color: rgb(60, 226, 60);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+/*Main section*/
+.main-image{
+    width: 100%;
+    height: 700px;
+}
+.main-content{
+    position: absolute;
+    left: 800px;
+    top: 300px;
+}
+.main-content h2{
+    font-size: 60px;
+    color: rgba(0, 0, 255, 0.692);
+}
+.main-content h3{
+    font-size: 40px;
+    color: orangered;
+}
+.main-content button{
+    padding: 5px 10px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+    border-color: rgba(127, 255, 212, 0.425);
+    font-size: 20px;
+    box-shadow: 2px 2px rgba(127, 255, 212, 0.425);
+}
+.main-content button:hover{
+    color:rgb(12, 83, 12);
+    background-color: rgba(128, 128, 128, 0.349);
+}
+/*favourite food*/
+.dish{
+    width:200px;
+    height: 200px;
+}
+.favourite-dish h2{
+    text-align: center;
+    padding: 20px;
+}
+.fav{
+    display: flex;
+    margin:0px 60px;
+}
+.fav div{
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 5px 10px;
+}
+.fav h5,h6{
+    text-align: center;
+    padding-top: 5px;
+}
+.fav button{
+    margin-left: 55px;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    border-color: red;
+}
+.fav button:hover{
+    background-color: aqua;
+    border-color: aquamarine;
+}
+/*footer section*/
+footer{
+    background-color: black;
+    color: white;
+}
+.footer-section{
+    display: flex;
+    margin:40px 80px 0px;
+    padding: 30px 0px;
+}
+.footer-section .about-us{
+    width: 500px;
+    text-align: justify;
+}
+.footer-section details:hover{
+    color: blue;
+}
+.footer-section h5{
+    font-size: 20px;
+}
+.master-chef{
+    margin:0px 150px;
+}
+
+
+
+/*menu page of borcelle resto*/
+.menu-img{
+    background-image:url(../assets/menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+}
+.menu-img h1{
+    color:palevioletred;
+    margin-left: 750px;
+    word-spacing: 5px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.list-menu{
+    color:orangered;;
+    display: flex;
+    margin-left: 700px;
+}
+.list-menu legend{
+    color:white;
+    font-size: 30px;
+    margin: 5px;
+    text-align: center;
+} 
+.list-menu img{
+    width: 100px;
+    height: 80px;
+    margin: 5px 70px;
+}
+.list-menu fieldset{
+    border: 1px solid white;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+.rate{
+    padding-left: 20px;
+}
+
+
+/*About us page*/
+.about-us-content h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.about-us-content p{
+    padding: 20px 100px;
+    text-align: justify;
+    font-size: 20px;
+}
+.sample{
+    display: flex;
+}
+.sample img{
+    width: 600px;
+    height: 400px;
+    padding: 10px 100px;
+}
+.sample video{
+    width: 500px;
+    height: 400px;
+    margin-left: 110px;
+}
+
+/*contact us*/
+.orders{
+    background-image: url(../assets/order.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+    display: flex;
+}
+.orderme{
+    padding-top: 100px;
+    width: 700px;
+    padding-left: 200px;
+}
+.orderme  h1{
+    font-size: 60px;
+}
+.orderme h2{
+    font-size: 70px;
+    color: red;
+}
+.orderme button{
+    padding: 5px 10px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border-color: red;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+}
+.orderme button:hover{
+    background-color: green;
+    border-color: green;
+}
+.orders img{
+    width: 500px;
+    height: 450px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.orderme input{
+    padding: 8px 10px;
+}
+
+/*orders*/
+label{
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+}
+form{
+    border: 1px solid black;
+    margin:30px 0px;
+    margin-left: 800px;
+    padding: 30px 40px;
+    border-radius: 5px;
+    width: 350px;
+}
+form input{
+    padding:0px 30px;
+}
+.form-button{
+    background-color: green;
+    border: 1px solid green;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color:white;
+    margin: 10px 20px;
+}
+.sub{
+    display: flex;
+}
+.call{
+    margin-left: 900px;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.contactpage{
+    background-image: url(../assets/Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 40px;
+}
