@@ -1,5 +1,5 @@
 function validationform(){
-    var fname=document.validateform.fname.value;
+    var fname=document.validateform.firstname.value;
     var email=document.validateform.mail.value;
     var phonenumber=document.validateform.phonenumber.value;
     var comments=document.validateform.comments.value;
