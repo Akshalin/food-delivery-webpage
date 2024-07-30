@@ -7,7 +7,7 @@ function validationform(){
         alert("Enter your first name");
         return false;
     }
-    else if(email){
+    else if(email==null || !email.includes('@')){
         alert("Enter the correct mail");
         return false;
     }
